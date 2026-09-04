@@ -1,0 +1,10 @@
+{
+  "name": "theia-lang",
+  "version": "1.0.0",
+  "description": "A language made by people, for people.",
+  "main": "run.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node run.js"
+  }
+}
