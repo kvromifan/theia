@@ -1,0 +1,28 @@
+user_name = prompt("Enter your name: ")
+out("Hey, " + user_name + ". Since this language lacks a modulo operator (for now), we'll do it differently.")
+
+i = 1
+c3 = 1
+c5 = 1
+
+while i <= 15
+  if c3 == 3
+    if c5 == 5
+      out("FizzBuzz")
+      c3 = 0
+      c5 = 0
+    else
+      out("Fizz")
+      c3 = 0
+    end
+  elif c5 == 5
+    out("Buzz")
+    c5 = 0
+  else
+    out(str(i))
+  end
+  
+  i = i + 1
+  c3 = c3 + 1
+  c5 = c5 + 1
+end
